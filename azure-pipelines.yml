@@ -8,5 +8,7 @@ steps:
 - script: git clone https://github.com/mohammadsyed397/shell_scripts
   displayName: 'Cloning the code'
 
-- script: ./diskutilization.sh
-  displayName: 'Check the disk utilization'
+- script: |
+    chmod +x ./shell_scripts/diskutilization.sh
+    ./shell_scripts/diskutilization.sh
+  displayName: 'Make diskutilization.sh executable and run it'
