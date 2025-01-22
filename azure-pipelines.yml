@@ -9,6 +9,6 @@ steps:
   displayName: 'Cloning the code'
 
 - script: |
-    chmod +x ./shell_scripts/diskutilization.sh
-    ./shell_scripts/diskutilization.sh
+    chmod +x ./shell_scripts/disk_utilization.sh
+    ./shell_scripts/disk_utilization.sh
   displayName: 'Make diskutilization.sh executable and run it'
