@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  Agent: default
+  VmImage: ubuntu-latest
 
 steps:
 - script:  git clone https://github.com/mohammadsyed397/shell_scripts
